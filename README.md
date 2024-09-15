@@ -1,3 +1,3 @@
 # vaccination-scheduling-Django-project
 This is Django project
-Test12
+test
