@@ -12,7 +12,7 @@ class Vaccination(models.Model):
        slot = models.ForeignKey(Slot, on_delete=models.CASCADE)
        date = models.DateField(null=True, blank=True)
        is_vaccinated = models.BooleanField(default=False)
-       updated_by = models.ForeignKey(User, on_delete=models.CASCADE, null=True, blank=True)
+       update_by =models.DateField(null=True, blank=True)
        updated_on = models.DateTimeField(auto_now=True)
 
        def __str__(self):

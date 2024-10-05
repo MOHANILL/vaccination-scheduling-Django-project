@@ -18,4 +18,3 @@ class Storage (models.Model):
 
       def __str__(self):
           return self.center.name + " | "  + self.vaccine.name
-
